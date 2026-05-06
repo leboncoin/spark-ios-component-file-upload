@@ -1,32 +1,44 @@
-# ___COMPONENT_NAME___
+# FileUpload
 
 **Spark** is the [Leboncoin](https://www.leboncoin.fr/)'s _Design System_.
 
-The repository here contains only the **iOS ___COMPONENT_NAME___** for _SwiftUI_ and _UIKit_.
+The repository here contains only the **iOS FileUpload** for _SwiftUI_ and _UIKit_.
 
 You can also see all of our Spark iOS repositories on [Github](https://github.com/orgs/leboncoin/repositories?q=spark-ios+sort%3Aname-asc).
 
 ## Specifications
 
-The ___component_name___ specifications is visible on [Zeroheight](TODO).
+The fileupload specifications is visible on [Zeroheight](https://zeroheight.com/1186e1705/p/737568-fileupload).
 
-![Figma anatomy](https://github.com/leboncoin/___REPOSITORY_NAME___/blob/main/.github/assets/anatomy.png)
+The repository contains 3 parts : 
+
+### Button
+
+![Figma anatomy](https://github.com/leboncoin/spark-ios-component-file-upload/blob/main/.github/assets/button _anatomy.png)
+
+### Drop zone
+
+![Figma anatomy](https://github.com/leboncoin/spark-ios-component-file-upload/blob/main/.github/assets/dropzone_anatomy.png)
+
+### File Preview
+
+![Figma anatomy](https://github.com/leboncoin/spark-ios-component-file-upload/blob/main/.github/assets/preview_anatomy.png)
 
 ## Technical Documentation
 
-You are a developer ? A technical documentation in _DocC_ is available [here](https://leboncoin.github.io/___REPOSITORY_NAME___/).
+You are a developer ? A technical documentation in _DocC_ is available [here](https://leboncoin.github.io/spark-ios-component-file-upload/).
 
 ### Swift Package Manager
 
-_Note: Instructions below are for using **SPM** without the Xcode UI. It's the easiest to go to your Project Settings -> Swift Packages and add SparkComponent___COMPONENT_NAME___ from there.\_
+_Note: Instructions below are for using **SPM** without the Xcode UI. It's the easiest to go to your Project Settings -> Swift Packages and add SparkComponentFileUpload from there.\_
 
 To integrate using Apple's Swift package manager, without Xcode integration, add the following as a dependency to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/leboncoin/___REPOSITORY_NAME___.git", .upToNextMajor(from: "1.0.0"))
+.package(url: "https://github.com/leboncoin/spark-ios-component-file-upload.git", .upToNextMajor(from: "1.0.0"))
 ```
 
-and then specify `SparkComponent___COMPONENT_NAME___` as a dependency of the Target in which you wish to use the SparkComponent___COMPONENT_NAME___.
+and then specify `SparkComponentFileUpload` as a dependency of the Target in which you wish to use the SparkComponentFileUpload.
 
 Here's an example `Package.swift`:
 
@@ -46,7 +58,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/leboncoin/___REPOSITORY_NAME___.git",
+            url: "https://github.com/leboncoin/spark-ios-component-file-upload.git",
             .upToNextMajor(from: "1.0.0")
         )
     ],
@@ -55,8 +67,8 @@ let package = Package(
             name: "MyPackage",
             dependencies: [
                 .product(
-                    name: "SparkComponent___COMPONENT_NAME___",
-                    package: "___REPOSITORY_NAME___"
+                    name: "SparkComponentFileUpload",
+                    package: "spark-ios-component-file-upload"
                 ),
             ]
         )
