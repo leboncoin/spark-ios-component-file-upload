@@ -9,6 +9,6 @@ configurations:
       - ../spark-ios-common/.sourcery/template/
     output: Sources/Testing/Generated/Sourcery.generated.swift
     args:
-      autoMockableImports: [Combine, SparkTheming]
+      autoMockableImports: [Combine, SparkTheming, Photos, PhotosUI]
       autoMockableSPIImports: [SparkCommon, SparkCommonTesting, SparkThemingTesting]
-      autoMockableTestableImports: [SparkComponent___COMPONENT_NAME___]
+      autoMockableTestableImports: [SparkComponentFileUpload]
