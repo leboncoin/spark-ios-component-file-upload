@@ -14,7 +14,7 @@ The repository contains 3 parts :
 
 ### Button
 
-![Figma anatomy](https://github.com/leboncoin/spark-ios-component-file-upload/blob/main/.github/assets/button _anatomy.png)
+![Figma anatomy](https://github.com/leboncoin/spark-ios-component-file-upload/blob/main/.github/assets/button_anatomy.png)
 
 ### Drop zone
 
