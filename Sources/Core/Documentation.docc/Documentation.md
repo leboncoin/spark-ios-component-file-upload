@@ -105,8 +105,6 @@ Use the ``SparkFileUploadDropzone`` view in SwiftUI. The component requires a bi
 
 #### Accessibility
 
-TODO: Update if it change after a11y
-
 The dropzone is accessible as a container element, with all child elements (icon, labels, button) individually accessible.
 
 To enhance accessibility:

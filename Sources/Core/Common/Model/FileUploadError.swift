@@ -9,7 +9,7 @@
 import Foundation
 
 /// Represents the various failure cases that can occur during file upload.
-public enum FileUploadError: Error, Equatable {
+public enum FileUploadError: LocalizedError, Equatable {
     /// The photo resource could not be found in the library.
     case photoResourceNotFound
 

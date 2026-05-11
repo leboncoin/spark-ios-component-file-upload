@@ -8,6 +8,12 @@
 
 import Foundation
 
-enum ErrorMock: Error {
+enum ErrorMock: LocalizedError {
     case value
+
+    // MARK: - Properties
+
+    var errorDescription: String? {
+        return "Error mocked !"
+    }
 }
